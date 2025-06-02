@@ -63,5 +63,5 @@ if(strlen($_GET['q'] <= 200)){
     }
 
     # display our output
-    echo substr($output, 0, 400);
+    echo substr($output, 0, 350);
 }
